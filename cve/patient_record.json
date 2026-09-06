@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "emr-test-patient-001",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jane Doe, DOB: 1985-04-12</div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:oid:2.16.840.1.113883.4.1",
+      "value": "999-00-1234"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "Doe",
+      "given": ["Jane", "A"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1985-04-12",
+  "managingOrganization": {
+    "reference": "Organization/general-hospital"
+  }
+}
